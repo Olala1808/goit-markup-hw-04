@@ -346,11 +346,12 @@ border-color: var(--accent-color);}
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 1.14;}
+    line-height: 1.14;
+    text-transform: uppercase;}
 
 .social-network-footer{display: flex;
 padding-top: 20px; }
-    
+
 .social-network-item-footer:not(:last-child){margin-right: 10px;}
     
 .link-social-network-footer{ display: block;
@@ -368,9 +369,10 @@ padding-top: 20px; }
 .link-social-network-footer:hover, .link-social-network-footer:focus{color: #ffffff;
         background-color: var(--accent-color);}
 
-.footer-1{display: flex;}
+.footer-1{display: flex;
+align-items: baseline;}
 
-.join-network{padding: 12px 878px 0px 70px;}
+.join-network{margin-left:70px;}
 
 .footer {padding: 60px 15px}
 
